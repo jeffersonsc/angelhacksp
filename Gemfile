@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.8'
+#ruby '2.1.8'
 
 gem 'rails', '4.2.0'
 gem 'pg'
@@ -22,8 +22,6 @@ gem 'rails_12factor', group: :production
 gem 'active_model_serializers'
 gem 'responders', '~> 2.0'
 gem 'devise'
-
-gem 'ibm_db'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
