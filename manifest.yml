@@ -1,0 +1,10 @@
+apllications:
+- services:
+  - SQL Database-j3
+  disc_quota: 1024M
+  host: 75.126.155.153
+  name: SQL Database-j3
+  path: .
+  domain: ng.bluemix.net
+  instances: 1
+  memory: 256M
