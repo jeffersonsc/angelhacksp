@@ -1,7 +1,7 @@
 apllications:
 - services:
   - SQL Database-j3
-  disc_quota: 1024M
+  disc_quota: 2048M
   host: healthapp-angel
   name: healthapp-angel
   path: .
