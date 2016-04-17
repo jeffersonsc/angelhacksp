@@ -13,10 +13,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem "cf-autoconfig", "~> 0.2.1"
+gem 'rails_12factor', group: :production
+
 #Api gems
 gem 'active_model_serializers'
 gem 'responders', '~> 2.0'
 gem 'devise'
+gem 'pg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
